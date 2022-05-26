@@ -1,0 +1,180 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(-80deg,#BA9780, #EBB255, #E0CA89);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 10% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+header {
+    height: 60px;
+    background-color: #E6E19C;
+    padding: 5px;
+    box-shadow: 1px 1px 15px rgb(94, 92, 92);
+    opacity: 0.7;
+}
+
+#Titulo {
+    font-size: 28px;
+    margin: 0 0 0 60px;
+    line-height: 60px;
+    color: #5f4f42;
+}
+
+ul {
+    padding-left: 0;
+}
+
+#Navbar li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 85px;
+    padding: 5px 12px;
+    position: relative;
+    bottom: 55px;
+    left: 630px;
+}
+
+#Navbar a {
+    text-decoration: none;
+    color: rgb(46, 38, 27);
+    font-size: 18px;
+    padding: 5px 12px;
+}
+
+#Navbar a:hover {
+    color: #e6b998;
+}
+
+#Chamada {
+    float: left;
+    width: 730px;
+    position: relative;
+    bottom: 10px;
+}
+
+#Chamada h1 {
+    color: beige;
+    font-size: 32px;
+    margin-left: 95px;
+    margin-top: 114px;
+}
+
+.video {
+    margin-left: 70px;
+}
+
+#Formulario h2 {
+    color: #5f4f42;
+    text-align: center;
+    font-weight: 300;
+    font-size: 23px;
+    margin: 18px 0 15px 0;
+    padding: 10px;
+}
+
+#Formulario input {
+    width: 286px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 23px;
+    height: 28px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+#Formulario button {
+    width: 257px;
+    height: 40px;
+    margin-top: 30px;
+    background: #EBB255;
+    border-radius: 9px;
+    color: beige;
+    font-size: 17px;
+    margin-left: 38px;
+    border: none;
+    cursor: pointer;
+}
+
+fieldset {
+    background-color: #E6E19C;
+    width: 347px;
+    height: 357px;
+    position: relative;
+    top: 120px;
+    left: 40px;
+    border: none;
+    box-shadow: 3px 4px 19px rgb(94, 92, 92);
+    border-radius: 13px;
+}
+
+label {
+    display: block;
+    margin-left: 28px;
+    padding-top: 4px;
+    color: #423830;
+}
+
+.footer-classe {
+    background-color: #E6E19C;
+    box-shadow: 0px 1px 1px 0 rgb(94, 92, 92);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 18px sans-serif;
+
+    padding: 45px;
+    margin-top: 313px;
+}
+
+.footer-classe .footer-projeto {
+    color: #5f4f42;
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-classe .footer-projeto-nome {
+    color: #5f4f42;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-classe .footer-links {
+    list-style: none;
+    font-weight: bold;
+    color: #5f4f42;
+    padding: 35px 0 23px;
+    margin: 0;
+}
+
+.footer-classe .footer-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-classe .footer-links a:hover {
+    color: #e6b998;
+}
+
+
+    
